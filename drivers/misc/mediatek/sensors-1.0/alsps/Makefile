@@ -5,4 +5,5 @@ obj-y   +=  alsps_factory.o
 obj-y   +=  aal_control.o
 
 obj-$(CONFIG_MTK_ALSPSHUB)      +=  alspshub/
+obj-$(CONFIG_MTK_EPL2182)	+=  epl2182/
 obj-$(CONFIG_MTK_CM36652)	+=  cm36652/
