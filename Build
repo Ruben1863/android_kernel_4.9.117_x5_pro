@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [[ ! -d out ]]; then
+else
 sudo rm -r out
 fi
 if [[ ! -d gcc ]]; then
